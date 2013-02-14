@@ -1,0 +1,94 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="style.css" /> 
+
+<script type="text/javascript" src="library/lib/prototype.js"></script> 
+<script type="text/javascript" src="library/src/effects.js"></script> 
+<script type = "text/javascript"> 
+var count=1; 
+var maxPic;
+
+function changeN()
+{
+
+if(count>2) 
+{
+  count=1;
+}
+else
+{
+	count++;
+}
+
+
+document.getElementById("picture").src = "imacpics/image_" + count + ".jpg";
+//document.write(x);
+} 
+function changeP()
+{
+	if (count<1) 
+	{
+		count=3;
+	}
+	else
+	{
+		count++;
+	} 
+	document.getElementById("picture").src = "imacpics/image_" + count + ".jpg";
+
+}
+</script>
+
+
+
+</head>
+
+<body>
+<div id = "div2"> iMac Review (Late 2012) </div>
+<div id = "div1">
+<img id='picture' src="imacpics/image_1.jpg"/>
+<br/>
+ <input type="button" value="Previous" onclick="changeP()"/>
+ <input  type="button" value="Next" onclick="changeN()"/> 
+ <input type = "button" value="SwitchOff" onclick="new Effect.SwitchOff($('picture'))"/> 
+ <input type = "button" value = "Reload" onclick="window.location.reload()"/>
+<br/>
+
+
+</div>
+
+<br />
+<p>The new iMac (Late 2012) is Apples latest and greatest all in one computer. The new iMac has a many amount of improvements but not without a few drawbacks.</P>
+ 	<font size="xx-large"> Design </font>
+<br/>
+<p> The new iMac is ultra thin at beautiful. With it's thinnest point being only 5mm, it's almost hard to believe that this iMac is even more powerful than it's predecessor. According to Apple, the new iMac has 40% less volume and uses up to 50% less energy than it's predecessors. The screen on the 21.5 inch model is rich and vibrate with it's 1920-by-1080 resolution. The screens get's even better on the 27-inch version with a resolution on 2560-by-1440. This resoltion really makes the larger display shine. My only real gripe about the design is that there is no optical drive for CD's, DVD's, BluRay's etc. CD drive's are becoming less and less used but I wouldn't call them obsolete just yet. You can always get an external optical drive but with the starting price of the base iMac model being $1299 I think one should be included. </p>
+<br/>
+<font-size = "xx-large"> Hardware = 7/10 </font> 
+<br/>
+ <font size="xx-large"> Hardware </font>
+<p> 	Even though the base model sports a 2.7 GHz quad-core i5 processor and the flag ship 27 inch with a 3.2 GHz quad-core i5 processor, the iMac's hardware still lacks for the price point. The base model comes with 8 GB of ram and a 1 TB harddrive that has 5400 RPM. I think a 5400-rpm harddrive is a big bottleneck for this machine. Machine's at this price point and even lower come with a 7200-rpm harddrive. The GPU on the base modeli is a NVIDIA GeForce GT 640M graphics processor with 512MB of GDDR5 memory. This is a mobile graphics card so for all you gamers out there, don't expect to be running demanding games on here. The graphics would be fine for a casual gamer though. If you are a casual computer user who just want's to do everyday tasks like search the web and watch movies, then the graphics are more than capable of handling that. It is also worth noting that the graphics are switchable with Intel HD 4000 graphics. The machine comes with 4 USB 3.0 puts, 2 Thunderbolt ports, mini display out port and a Gigabit ethernet port. One thing that I don't like about the mini display port is that it's only an output. You cannot hook this a gaming console to this machine which is upsetting because the display is so awesome.  </p>
+<br/>
+<font size ="xx-large"> Hardware = 7/10 </font>
+<br/> 
+<font size = "xx-large"> Software </font>
+<p> 	The newest Apple desktop operating system, OS X mountain lion works flawlessly. Combined with Apple's magic touch trackpad, gestures are now more smooth and responsive than ever. Apple's desktop app store comes with the operating system and is extremely convenient for downloading all kinda of software, games, utilities and media. Apples operating system is very clean and fluid. OS X is not meant for gaming however. Many will find that most gaming titles are made for Windows only. OS X support for games is rising, although.
+</p>
+<font-size ="xx-large"> Software = 9.5/10 </font>
+<br/>
+<font size ="xx-large"> Overall score = 8.5/10</font>
+<p> Apples new iMac is great for anyone looking to buy an ultra sleek, good performing all-in-one computer. The graphics can handle almost all tasks performed by an everyday user with ease. OS X Mountain Lion is slicker than ever with it's intuitive motion gestures and smooth optomizations. Apple did well with this new revision of the iMac despite a few flaws such as no optical drive and a 5400 rpm harddrive. </p>
+<br/> 
+
+<div id="div1">
+<p> Here is another extremely informative review for another opinion on the new iMac! </p> 
+<br/>
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/_aIvwOJ6Cxg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
