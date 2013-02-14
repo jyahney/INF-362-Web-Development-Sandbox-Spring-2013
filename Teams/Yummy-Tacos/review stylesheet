@@ -1,0 +1,68 @@
+@charset "utf-8";
+@charset "UTF-8";
+/* CSS Document */
+
+body 
+{
+  background-color:#999
+} 
+
+p
+{
+	font-family: "Courier New", Courier, monospace
+}
+
+#header
+{
+	text-align:center;
+	float: none;
+	background-color:#06C;
+	height: 50px;
+	margin: auto;
+	font-size:x-large;
+	font-family:"Courier New", Courier, monospace; 
+	
+} 
+#div1
+{
+	text-align:center;
+	font-family:"Courier New", Courier, monospace;
+	height: 90%; 
+	width: 70%; 
+	background-image:url('background-1.png');
+	background-repeat: repeat;
+	margin: auto;
+} 
+#div2
+{
+	text-align: center; 
+	font-family:"Comic Sans MS", cursive; 
+	font-size:xx-large; 
+}
+
+a:hover
+{
+	background-color: #0CF 	
+} 
+
+#frame
+{
+	background-color:#06C
+	text-align:center;
+	width:90%;
+	margin-left: 5%;
+	margin-right:5%;
+	height:90%;
+}
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li
+{
+	float:left; 
+	width:25%; 
+}   
+/* CSS Document */
