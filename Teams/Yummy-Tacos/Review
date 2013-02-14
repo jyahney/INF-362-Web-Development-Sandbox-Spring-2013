@@ -1,0 +1,41 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jarret's Computer Reviews</title>
+<link rel="stylesheet" type="text/css" href="style.css" /> 
+<script type="text/javascript"> 
+function setSize() 
+{
+  var iframeElement = document.getElementById('frame');
+	iframeElement.style.height= "90%"; 
+	iframeElement.style.width= "85%"; 
+}
+</script>
+
+
+<style type="text/css">
+html,body
+{padding:0;
+margin:0;
+height:100%;
+}
+</style>
+
+</head>
+
+<body>
+<div id = "header"> 
+<ul> 
+<li> Home </li>
+<li> Computers </li>
+<li> Tablets </li>
+<li> Phones </li>
+<li> Gaming </li>
+</ul>
+</div>
+<br/> 
+<iframe id = "frame" name= "iframe scrolling = "auto" src = "Jarret's Page iframe.html" />
+</body>
+</html>
